@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+          /* background styling */
+ body{
+     /* background: url('bg4.jpg')no-repeat center center/cover fixed;
+    height: 40%;
+    width: 100%; */
+    /* background: rgb(233, 170, 170); */
+    font-family: 'Chelsea Market', cursive;
+    background:rgb(185, 184, 184) ;
+    } 
+        /* Navigation bar styling */
+#navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    /* background-color: black; */
+    }
+.logo {
+margin: 0px 12px;
+padding: 0px 32px;
+/* border: 2px solid red; */
+height: 37px;
+width: 100px;
+}
+ 
+.logo img{
+height: 35px;
+width: 115px;
+}
+#navbar ul{
+display: flex;
+height: 20vh;
+}
+#navbar ul li{
+
+list-style: none;
+font-size: 1.3rem;
+height: 200px;
+}
+#navbar ul li a{
+padding: 10px 15px;
+margin: 10px 20px;
+text-decoration: none;
+color: white;
+border-radius: 20px;
+}
+#navbar ul li a:hover{
+    color: rgb(233, 235, 121);
+    background: rgb(86, 119, 141);
+    text-decoration: underline;
+    transition: all 1s ease-in-out;
+    transform: rotate(5deg);
+    border: black;
+    border-radius: 20px;
+}
+/* body styling */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    height: 100px;
+}
+#home::before{
+    content: " ";
+    position: absolute;
+    background: url('bg3.jpg')no-repeat center center/cover fixed;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.75;
+}
+.heading{
+    font-size: 2rem;
+    text-decoration: underline;
+    color: rgb(221, 250, 163);
+}
+.line{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    list-style: none;
+}
+/* Home Styling */
+.box{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 200px;
+    background: rgb(185, 184, 184);
+}
+/* .head{
+
+}
+.para{
+
+}
+#calllogo{
+    height: 4%;
+    width: 15%;
+}
+#emaillogo{
+    height: 4%;
+    width: 15%;
+}
+#wplogo{
+    height: 4%;
+    width: 15%;
+}
+.image{
+    float: left;
+} */
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+        <div class="logo">
+       <img src="logo.jpg" alt="can't load">
+    </div>   
+    
+        <li class="content"><a href="/alphabet website/Home.html">Home</a></li>
+        <li class="content"><a href="/alphabet website/courses.html">Courses</a></li>
+        <li class="content"><a href="/alphabet website/about us.html">About Us</a></li>
+        <li class="content"><a href="/alphabet website/contact Us.html">Contact Us</a></li>
+        <li class="content"><a href="/alphabet website/Log In.html">Log In</a></li>
+        <li class="content"><a href="/alphabet website/Register Now.html">Register Now</a></li>
+    </ul>
+
+    </nav>
+<section id="home">
+    <h1 class="heading">Contact Us</h1>
+    <li class="line"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, natus suscipit ab dignissimos corrupti harum? </li>
+    <li class="line">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, eius.</li>
+</section>
+<div class="box">
+    <div class="container">
+    <h2 class="head">Organisation</h2>
+    <li class="para">Lorem ipsum dolor sit amet consectetur.</li>
+    <li class="para">Lorem ipsum dolor sit amet co</li>
+    <li class="para">Lorem ipsum dolor sit amet consect.</li>
+    <li class="para">Lorem ipsum dolor sit am</li>
+    </div>
+    <div class="container">
+    <h2 class="head">Information Details</h2>
+    <!-- <div class="image"> -->
+    <h3 class="header" >Call Us</h3>
+    <!-- <img src="https://i.pinimg.com/originals/cc/bc/8f/ccbc8f155300d671bb11cae9f0c42544.jpg" alt="" id="calllogo">
+</div> -->
+    <li class="para">Lorem ipsum dolor sit amet consecte</li>
+    <!-- <div class="image"> -->
+    <h3 class="header">Email Us</h3>
+    <!-- <img src="https://www.freepngimg.com/thumb/gmail/66537-logo-account-google-email-gmail-free-png-hq.png" alt="" id="emaillogo">
+</div> -->
+    <li class="para">Lorem ipsum dolor sit amet</li>
+    <!-- <div class="image"></div> -->
+    <h3 class="header">Whatsapp Us</h3>
+    <!-- <img src="https://image.flaticon.com/icons/png/512/124/124034.png" alt="" id="wplogo">
+</div> -->
+    <li class="para">Lorem ipsum dolor sit amet consecte</li>
+    </div>
+    <div class="container">
+    <h2 class="head">Know Us</h2>
+    <li class="para">Lorem ipsum dolor sit amet consectetur.</li>
+    <li class="para">Lorem ipsum dolor sit amet co</li>
+    <li class="para">Lorem ipsum dolor sit amet consect.</li>
+    <li class="para">Lorem ipsum dolor sit am</li>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project|Home</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <style>
+        /* background styling */
+         body{
+            background: url('bg2.jpg') no-repeat center center/cover fixed;
+            height: 100%;
+            width: 100%;
+            font-family: 'Chelsea Market', cursive;
+        } 
+        
+        /* Navigation bar styling */
+    #navbar{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        /* background-color: black; */
+    }
+.logo {
+    margin: 0px 12px;
+    padding: 0px 32px;
+    /* border: 2px solid red; */
+    height: 85px;
+    width: 85px;
+}
+ 
+.logo img{
+    height: 85px;
+    width: 85px;
+}
+/* body styling */
+
+#navbar ul{
+display: flex;
+height: 20vh;
+}
+#navbar ul li{
+
+list-style: none;
+font-size: 1.3rem;
+height: 200px;
+}
+#navbar ul li a{
+padding: 10px 15px;
+margin: 10px 20px;
+text-decoration: none;
+color: white;
+border-radius: 20px;
+}
+#navbar ul li a:hover{
+    color: rgb(233, 235, 121);
+    background: rgb(86, 119, 141);
+    text-decoration: underline;
+    transition: all 1s ease-in-out;
+    transform: rotate(5deg);
+    border: black;
+    border-radius: 20px;
+}
+
+/* Section styling */
+
+#home {
+    color: rgb(238, 252, 112);
+    font-size: 3.4rem; 
+    text-decoration: underline;
+    
+}
+.box{
+    height: 40%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.para{
+    height: 50px;
+    width: 60%;
+    font-size: 2rem;
+    color: rgb(152, 255, 160);
+}
+/* Button Styling */
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 220px;
+    font-size: 30px;
+    border: 2px solid wheat;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin: 10px 15px;
+    cursor: pointer;
+    color: cornsilk;
+    background: rgb(24, 25, 54);
+}
+.btn:hover{
+    color: rgb(233, 235, 121);
+    background: rgb(86, 119, 141);
+    text-decoration: underline;
+    transition: all 1s ease-in-out;
+    transform: scale(1.2);
+    border: black;
+}
+
+
+    </style>
+</head>
+<body>
+   <!-- <img src="bg1.jpg" alt=""> -->
+    <nav id="navbar">
+        <ul>
+        <div class="logo">
+       <img src="logo.png" alt="hello">
+    </div>   
+    
+        <li class="content"><a href="home.html">Home</a></li>
+        <li class="content"><a href="courses.html">Courses</a></li>
+        <li class="content"><a href="about_us.html">About Us</a></li>
+        <li class="content"><a href="contact_us.html">Contact Us</a></li>
+        <li class="content"><a href="log_in.html">Log In</a></li>
+        <li class="content"><a href="register_Now.html">Register Now</a></li>
+    </ul>
+
+    </nav>
+
+    <section class="box">
+        <h1 id="home">Think About Things Differently</h1>
+        <div class="para">It's a project to help take and solve problems related to High School examination purposes, and help students reach faculty members, easily to not stop the enhancement of education during this lockdown period.
+        </div>
+    </section>
+    <div class="button">
+    <button class="btn"><a href="log_in.html"> Log In</a></button>
+    <button class="btn"><a href="register_now.html">Register Now</a></button>
+    </div>
+</body>
+</html>

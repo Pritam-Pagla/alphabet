@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now</title>
+    <style>
+         /* background styling */
+         body{
+            background: url('bg3.jpg') no-repeat center center/cover fixed;
+            height: 100%;
+            width: 100%;
+            font-family: 'Chelsea Market', cursive;
+        } 
+        
+        /* Navigation bar styling */
+    #navbar{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        /* background-color: black; */
+    }
+.logo {
+    margin: 0px 12px;
+    padding: 0px 32px;
+    /* border: 2px solid red; */
+    height: 37px;
+    width: 100px;
+}
+ 
+.logo img{
+    height: 35px;
+    width: 115px;
+}
+/* body styling */
+
+#navbar ul{
+display: flex;
+height: 20vh;
+}
+#navbar ul li{
+
+list-style: none;
+font-size: 1.3rem;
+height: 200px;
+}
+#navbar ul li a{
+padding: 10px 15px;
+margin: 10px 20px;
+text-decoration: none;
+color: white;
+border-radius: 20px;
+}
+#navbar ul li a:hover{
+    color: rgb(233, 235, 121);
+    background: rgb(86, 119, 141);
+    text-decoration: underline;
+    transition: all 1s ease-in-out;
+    transform: rotate(5deg);
+    border: black;
+    border-radius: 20px;
+}
+/* Body Styling */
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* LeftWing Styling */
+.left{
+width: 400px;
+margin-top: 40px;
+margin-left: 20px;
+list-style: none;
+/* background-color: cadetblue; */
+}
+.headleft{
+font-size: 2rem;
+color: white;
+}
+.lineleft{
+color: white;
+font-size: 1.4rem;
+}
+/* RightWing Styling */
+.right{
+height: 100%;
+width: 600px;
+border: 2px solid white;
+}
+form{
+height: 600px;
+}
+.heading{
+font-size: 2rem;
+text-align: center;
+text-decoration: underline;
+color: bisque;
+}
+.subheading{
+font-size: 1.6rem;
+text-align: center;
+text-decoration: underline;
+color: bisque;
+}
+.para{
+text-align: center;
+color: bisque;
+
+}
+.class{
+font-size: 1.4rem;
+margin: 16px 14px;
+color: bisque;
+}
+.form input{
+    text-align: center;
+    height: 20px;
+    width: 240px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.button input{
+    height: 35px ;
+    width: 90px;
+    background-color: black;
+    color: blanchedalmond;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.button input:hover{
+    height: 35px ;
+    width: 90px;
+    background-color: rgb(99, 99, 99);
+    color: rgb(236, 233, 228);
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    color: black;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+        <div class="logo">
+       <img src="logo.jpg" alt="can't load">
+    </div>   
+    
+        <li class="content"><a href="/alphabet website/Home.html">Home</a></li>
+        <li class="content"><a href="/alphabet website/courses.html">Courses</a></li>
+        <li class="content"><a href="/alphabet website/about us.html">About Us</a></li>
+        <li class="content"><a href="/alphabet website/contact Us.html">Contact Us</a></li>
+        <li class="content"><a href="/alphabet website/Log In.html">Log In</a></li>
+        <li class="content"><a href="/alphabet website/Register Now.html">Register Now</a></li>
+    </ul>
+
+    </nav>
+    <div class="body">
+    <div class="left">
+        <h1 class="headleft">Welcome To Alphabet</h1>
+        <li class="lineleft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores deleniti ut, amet possimus similique dicta minus aliquam quam itaque vero? Doloribus dolore voluptate accusamus commodi.</li>
+    </div>
+    <div class="right">
+        <form action="backend.php" class="form">
+            <h2 class="heading">Alphabet</h2>
+            <h3 class="subheading">Informational Details</h3>
+            <h4 class="para">Step-1</h4>
+            <div class="class">
+            Enter Your Name: <input type="text" name="Name" placeholder="Your name" class="input">
+        </div>
+            <div class="class">
+            Enter Your Father's Name:<input type="text" name="Father's Name" placeholder="Your Father's name" class="input">
+        </div>
+        <div class="class">
+            Enter Phone Number: <input type="text" name="Phone Number" placeholder="Your Phone Number" class="input">
+            </div>
+<div class="class">
+
+            Enter Email Adress: <input type="email" name="Email Adress" placeholder="Your Email Adress" class="input"></div>
+<div class="class">
+            Enter Your School: <input type="text"name="School Name" placeholder="Your School" class="input">
+        </div>
+<div class="class">
+            Enter Your Post: <input type="text"name="post Name" placeholder="Your Post" class="input">
+        </div>
+<div class="class">
+            Enter Your Qualification: <input type="text"name="Qualification" placeholder="Your Qualification" class="input">
+        </div>
+        <div class="button">
+        <input type="submit" value="Continue"></div>
+        <div class="button">
+        <input type="reset" value="Reset"></div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

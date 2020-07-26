@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now</title>
+    <style>
+         /* background styling */
+         body{
+            background: url('bg2.jpg') no-repeat center center/cover fixed;
+            height: 100%;
+            width: 100%;
+            font-family: 'Chelsea Market', cursive;
+        } 
+        
+        /* Navigation bar styling */
+    #navbar{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        /* background-color: black; */
+    }
+.logo {
+    margin: 0px 12px;
+    padding: 0px 32px;
+    /* border: 2px solid red; */
+    height: 37px;
+    width: 100px;
+}
+ 
+.logo img{
+    height: 35px;
+    width: 115px;
+}
+/* body styling */
+
+#navbar ul{
+display: flex;
+height: 20vh;
+}
+#navbar ul li{
+
+list-style: none;
+font-size: 1.3rem;
+height: 200px;
+}
+#navbar ul li a{
+padding: 10px 15px;
+margin: 10px 20px;
+text-decoration: none;
+color: white;
+border-radius: 20px;
+}
+#navbar ul li a:hover{
+    color: rgb(233, 235, 121);
+    background: rgb(86, 119, 141);
+    text-decoration: underline;
+    transition: all 1s ease-in-out;
+    transform: rotate(5deg);
+    border: black;
+    border-radius: 20px;
+}
+/* Body Styling */
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* LeftWing Styling */
+.left{
+width: 400px;
+margin-top: 40px;
+margin-left: 20px;
+list-style: none;
+/* background-color: cadetblue; */
+}
+.headleft{
+font-size: 2rem;
+color: white;
+}
+.lineleft{
+color: white;
+font-size: 1.4rem;
+}
+/* RightWing Styling */
+
+.right{
+height: 100%;
+width: 600px;
+border: 2px solid white;
+/* background: rgb(218, 218, 243); */
+}
+form{
+height: 600px;
+}
+.heading{
+font-size: 2rem;
+text-align: center;
+text-decoration: underline;
+color: bisque;
+}
+.subheading{
+font-size: 1.6rem;
+text-align: center;
+text-decoration: underline;
+color: bisque;
+
+
+}
+.class{
+font-size: 1.4rem;
+margin: 16px 14px;
+color: bisque;
+}
+.form input{
+    text-align: center;
+    height: 20px;
+    width: 240px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.button input{
+    height: 35px ;
+    width: 90px;
+    background-color: black;
+    color: blanchedalmond;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.button input:hover{
+    height: 35px ;
+    width: 90px;
+    background-color: rgb(99, 99, 99);
+    color: rgb(236, 233, 228);
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    color: black;
+}
+.box{
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 400px;
+    font-size: 2rem;
+    list-style: none;
+}
+.box ul{
+    text-align: center;
+}
+.box ul a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 10px 12px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 60px;
+    width: 150px;
+    background-color: purple;
+    color: wheat;
+}
+.box ul a:hover{
+    text-decoration: none;
+    display: block;
+    margin: 10px 12px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 60px;
+    width: 150px;
+    background-color: rgb(187, 166, 187);
+    color: rgb(41, 40, 40);
+    transition: all 1s ease-in-out;
+}
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+        <div class="logo">
+       <img src="logo.jpg" alt="can't load">
+    </div>   
+    
+        <li class="content"><a href="/alphabet website/Home.html">Home</a></li>
+        <li class="content"><a href="/alphabet website/courses.html">Courses</a></li>
+        <li class="content"><a href="/alphabet website/about us.html">About Us</a></li>
+        <li class="content"><a href="/alphabet website/contact Us.html">Contact Us</a></li>
+        <li class="content"><a href="/alphabet website/Log In.html">Log In</a></li>
+        <li class="content"><a href="/alphabet website/Register Now.html">Register Now</a></li>
+    </ul>
+
+    </nav>
+    <div class="body">
+    <div class="left">
+        <h1 class="headleft">Welcome To Alphabet</h1>
+        <li class="lineleft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores deleniti ut, amet possimus similique dicta minus aliquam quam itaque vero? Doloribus dolore voluptate accusamus commodi.</li>
+    </div>
+    <div class="right">
+        <h1 class="heading">Register Now</h1>
+        <div class="box">
+    
+        <ul class="para"><a href="student register.html"> Student</a></ul>
+        <ul class="para"><a href="teacher register.html">Faculty</a></ul>
+    </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page</title>
+    <style>
+         /* background styling */
+ body{
+     background: url('bg2.jpg')no-repeat center center/cover fixed;
+    height: 40%;
+    width: 100%;
+    font-family: 'Chelsea Market', cursive;
+    } 
+        /* Navigation bar styling */
+#navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    /* background-color: black; */
+    }
+.logo {
+margin: 0px 12px;
+padding: 0px 32px;
+/* border: 2px solid red; */
+height: 37px;
+width: 100px;
+}
+ 
+.logo img{
+height: 35px;
+width: 115px;
+}
+#navbar ul{
+display: flex;
+height: 20vh;
+}
+#navbar ul li{
+
+list-style: none;
+font-size: 1.3rem;
+height: 200px;
+}
+#navbar ul li a{
+padding: 10px 15px;
+margin: 10px 20px;
+text-decoration: none;
+color: white;
+border-radius: 20px;
+}
+#navbar ul li a:hover{
+    color: rgb(233, 235, 121);
+    background: rgb(86, 119, 141);
+    text-decoration: underline;
+    transition: all 1s ease-in-out;
+    transform: rotate(5deg);
+    border: black;
+    border-radius: 20px;
+}
+/* body styling */
+.box{
+margin: auto;
+margin-top: 10px;
+border: 2px solid white;
+height: 500px;
+width: 30%;
+}
+.heading{
+font-size: 2rem;
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(233, 235, 121);
+text-decoration: underline;
+}
+
+.form{
+color: rgb(97, 211, 146);
+margin: 10px 12px;
+padding: 20px 12px;
+font-size: 1.4rem;
+}
+.form input{
+    text-align: center;
+    height: 20px;
+    width: 240px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 1.4rem;
+}
+.button input{
+    background: red;
+    color: blanchedalmond;
+    display: block;
+    margin: auto;
+    width: 90px;
+    height: 34px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.button input:hover{
+    background-color: rgb(253, 151, 151);
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+    transition: all 1s ease-in-out;
+    border: black;
+}
+form li a{
+    color: blanchedalmond;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.terms{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+        <div class="logo">
+       <img src="logo.jpg" alt="can't load">
+    </div>   
+    
+        <li class="content"><a href="/alphabet website/Home.html">Home</a></li>
+        <li class="content"><a href="/alphabet website/courses.html">Courses</a></li>
+        <li class="content"><a href="/alphabet website/about us.html">About Us</a></li>
+        <li class="content"><a href="/alphabet website/contact Us.html">Contact Us</a></li>
+        <li class="content"><a href="/alphabet website/Log In.html">Log In</a></li>
+        <li class="content"><a href="/alphabet website/Register Now.html">Register Now</a></li>
+    </ul>
+
+    </nav>
+<section class="box">
+   <h2 class="heading">Log In</h2>
+   <form action="bakend.php">
+       <div class="form">
+    Name: <input type="text" placeholder="Enter Your Name">
+       </div>
+       <div class="form">
+    Phone: <input type="number" name="Phone Number" placeholder="Enter Your Number">
+       </div>
+       <div class="form">
+    Email: <input type="email" name="Email" id=""placeholder="Enter Your Email">
+       </div>
+       <div class="form">
+    Password: <input type="password" name="Password" id=""placeholder="Enter Your Password">
+       </div>
+        <div class="button">
+           <input type="submit" value="Log In">
+        </div>
+        <div class="grid">
+        <li class="pass"><a href="/Home.html">Forgot Password?</a></li>
+        <li class="Sign"><a href="register_now.html">New Here? Register Now</a></li>
+    </div>
+   </form>
+</section>
+<footer>
+    <div class="terms"><a href="/bg4.jpg">Terms & Condition</a></div>
+    <div class="terms"><a href="/bg4.jpg">Policy</a></div>
+</footer>
+</body>
+</html>

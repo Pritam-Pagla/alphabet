@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <style>
+ /* background styling */
+ body{
+            background: url('bg3.jpg') no-repeat center center/cover fixed;
+            height: 100%;
+            width: 100%;
+            font-family: 'Chelsea Market', cursive;
+        } 
+        
+        /* Navigation bar styling */
+    #navbar{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        /* background-color: black; */
+    }
+.logo {
+    margin: 0px 12px;
+    padding: 0px 32px;
+    /* border: 2px solid red; */
+    height: 37px;
+    width: 100px;
+}
+ 
+.logo img{
+    height: 35px;
+    width: 115px;
+}
+/* body styling */
+
+#navbar ul{
+display: flex;
+height: 20vh;
+}
+#navbar ul li{
+
+list-style: none;
+font-size: 1.3rem;
+height: 200px;
+}
+#navbar ul li a{
+padding: 10px 15px;
+margin: 10px 20px;
+text-decoration: none;
+color: white;
+border-radius: 20px;
+}
+#navbar ul li a:hover{
+    color: rgb(233, 235, 121);
+    background: rgb(86, 119, 141);
+    text-decoration: underline;
+    transition: all 1s ease-in-out;
+    transform: rotate(5deg);
+    border: black;
+    border-radius: 20px;
+}
+/* Heading Styling */
+#head{
+height: 200px;
+width: 100%;
+}
+.heading{
+color: blanchedalmond;
+font-size: 2.9rem;
+text-decoration: underline;
+text-align: center;
+}
+.paragraph{
+text-align: center;
+color: blanchedalmond;
+font-size: 1.7rem;
+}
+.class{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* Body Styling */
+.head{
+color: blanchedalmond;
+text-decoration: underline;
+}
+.course{
+margin:auto;
+display: block;
+font-size: 1.8rem;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.course a{
+color: rgb(144, 238, 255);
+background-color: rgb(66, 63, 63);
+border-radius: 10px;
+}
+.course a:hover{
+color: rgb(0, 0, 0);
+background-color: rgb(202, 195, 195);
+border-radius: 10px;
+}
+.wbbse{
+border: 2px solid black;
+margin: 10px 12px;
+}
+.cbse{
+border: 2px solid black;
+margin: 10px 12px;
+}
+.icse{
+border: 2px solid black;
+margin: 10px 12px;
+}
+
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+        <div class="logo">
+       <img src="logo.jpg" alt="can't load">
+    </div>   
+    
+        <li class="content"><a href="/alphabet website/Home.html">Home</a></li>
+        <li class="content"><a href="/alphabet website/courses.html">Courses</a></li>
+        <li class="content"><a href="/alphabet website/about us.html">About Us</a></li>
+        <li class="content"><a href="/alphabet website/contact Us.html">Contact Us</a></li>
+        <li class="content"><a href="/alphabet website/Log In.html">Log In</a></li>
+        <li class="content"><a href="/alphabet website/Register Now.html">Register Now</a></li>
+    </ul>
+
+    </nav>
+    <div id="head">
+    <h1 class="heading">Courses in  Alphabet</h1>
+    <li class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae delectus sit exercitationem obcaecati. Optio recusandae consequatur quidem ad rerum rem?</li>
+    </div>
+    <div class="class">
+    <div class="wbbse">
+        <h1 class="head">Available for WBBSE Students</h1>
+        <ul class="course"><a href="/project1/WBBSE eng.html">English</a></ul>
+        <ul class="course"><a href="/project1/project1/WBBSE sc.html">Science</a></ul>
+        <ul class="course"><a href="/project1/WBBSE math.html">Maths</a></ul>
+    </div>
+    <div class="cbse">
+        <h1 class="head">Available for CBSE Students</h1>
+        <ul class="course"><a href="/project1/CBSE eng.html">English</a></ul>
+        <ul class="course"><a href="/project1/CBSE sc.html">Science</a></ul>
+        <ul class="course"><a href="/project1/CBSE math.html">Maths</a></ul>
+    </div>
+    <div class="icse">
+        <h1 class="head">Available for ICSE Students</h1>
+        <ul class="course"><a href="/project1/ICSE eng.html">English</a></ul>
+        <ul class="course"><a href="/project1/ICSE sc.html">Science</a></ul>
+        <ul class="course"><a href="/project1/ICSE math.html">Maths</a></ul>
+    </div>
+</div>
+</body>
+</html>
