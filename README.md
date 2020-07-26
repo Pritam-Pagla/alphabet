@@ -1,2 +1,2 @@
 # alphabet
-An experimental project on high school testing purpose
+An experimental project on high school examination purpose
